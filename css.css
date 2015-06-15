@@ -1,0 +1,83 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body{ background-color: #d8d8d8;}
+
+.window{
+	width:750px; height:auto; background-color:#FFFFFF; margin-left:auto; margin-right:auto; border-radius: 10px;
+}
+
+.logo{ width:750px; height:200px; background-color:;background-image:url(logo.png); background-position:center; background-size:cover;}
+
+.page{ width:750px; height: auto;} /* change height from auto to value if needed*/
+
+.footer{ width:750px; height: 100px; background-color:#ffd83a;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border-top: solid; border-width:5px; border-color: black;}
+
+/******Navigation. Do not Edit.**********/
+#header{ 
+	max-width: 750px; height: 50px; margin-left:auto; margin-right:auto;
+}
+ 
+#nav{
+	width: 750px; height: 40px;
+	background-color:#2A3F55; /* blue #2A3F55, yellow ffd83a */
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	float: left;
+	border-bottom: solid; border-width:5px; border-color:#ffd83a;
+}
+ 
+#nav li{
+	list-style: none;
+	float: left;
+	width: 110px;
+	height: 30px;
+	line-height: 40px;
+	text-align: center;
+	color:#ffd83a;
+} 
+
+#nav li a{
+	color: white;
+	font-weight:bold;
+	text-decoration: none;
+	display: block;
+} 
+
+#nav li a:hover{
+	background-color: none;
+	color:#ffd83a; /*yellow navigation on hover.*/
+}
+
+#nav li ul{
+	position: absolute;
+	display: none; 
+}
+ 
+#nav li:hover ul{ 
+	display: block;
+	
+}
+
+#nav li ul li{
+	float: none;
+	display: inline;
+} 
+
+#nav li ul li a{
+	width: 117px;
+	display: block;
+	position: relative;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	background: #2A3F55; /* blue #2A3F55, yellow ffd83a */
+	color: #fff;
+	z-index:1;
+}
+ 
+#nav li ul li a:hover{
+	background: #ffd83a;
+	color: #000000;
+}
+/******************************************/

@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css.css" type="text/css"/>
+<link rel="stylesheet" href="home.css" type="text/css"/>
+<script>
+		function validateForm() {
+			
+			var x = document.forms["form"]["email"].value;
+			var atpos = x.indexOf("@");
+			var dotpos = x.lastIndexOf(".");
+			
+			if (x == null || x == "") {
+				alert("email Id must be filled out");
+				return false;
+			}
+			
+			else if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+				alert("Not a valid e-mail address");
+				return false;
+			}
+			
+			else
+			{
+				alert("Thanks for Subscribing");
+			}
+		}
+		</script>
+
+<title>Riders Zone - Home</title>
+
+</head>
+
+<body>
+<div class="window">
+
+<div class="logo"></div>
+
+<div id="header">
+  <ul id="nav">				
+    	<li>Home</li> 
+		<li><a href="cars.html">Portfolio</a></li>
+		<li><a href="reservations.html">Reservations</a></li>
+		<li><a href="services.html">Services</a>
+			<ul> 
+				<li><a href="#">Insurance</a></li> 
+				<li><a href="#">Assistance</a></li> 
+				<li><a href="#">Car Wash</a></li>
+            </ul>
+		</li>
+		<li ><a href="offers.html">Offers</a></li>
+		<li><a href="contactus.html">Contact Us</a></li>
+	</ul> 
+</div>
+<div id="body">
+			<div id="wrap">
+				<div id="body">
+					<div id="content" align="right">
+						<div class="container">
+							<div class="slider_wrapper">
+								<ul id="image_slider">
+									<li><img src="images/car (1).jpg"></li>
+									<li><img src="images/car (2).jpg"></li>
+									<li><img src="images/car (3).jpg"></li>
+									<li><img src="images/car (4).jpg"></li>
+									<li><img src="images/car (5).jpg"></li>
+									<li><img src="images/car (7).jpg"></li>
+									<li><img src="images/car (8).jpg"></li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+					<br/>
+					<table>
+						<tr>
+							<td>
+								<div class="columnThird">
+								<!-- begin bookBenefits -->
+									<div class="contentModule">
+										<div class="inner">
+											<h2>Why book a car here?</h2>
+											<div class="innerContent">
+												<ul>
+													<li>Special low rates available</li>
+													<li>Easy searching and booking</li>
+													<li>Convenient to use</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+
+							
+							<td>
+								<div class="columnThird">
+								<!-- begin bookBenefits -->
+									<div class="contentModule">
+										<div class="inner">
+											<h2>What's special with us?</h2>
+											<div class="innerContent">
+												<ul>
+													<a href="offers.html"><li>Weekend special rates</li></a>
+													<a href="services.html"><li>We do services on cars</li></a>
+													<a href="cars.html"><li>Huge selection of cars</li></a>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+							
+							<td>
+								<div class="columnThird">
+								<!-- begin bookBenefits -->
+									<div class="contentModule">
+										<div class="inner">
+											<h2>What's special with us?</h2>
+											<div class="innerContent">
+												<ul>
+													<a href="offers.html"><li>Weekend special rates</li></a>
+													<a href="services.html"><li>We do services on cars</li></a>
+													<a href="cars.html"><li>Huge selection of cars</li></a>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+                <h3>Rider's zone Car Rental &amp; Car Sales</h3><p>Whether renting a car for your business enterprise or personal vacation, Rider's zone has a wide range of classic, sports, and hybrid vehicles available to meet every car rental you need. Enhance your driving plan with Rider's zone NeverLost(R) navigation and let our Satellite Radio be the soundtrack to your road trip.</p>
+				
+				<center><form id="form" onsubmit="return validateForm();" method="post" enctype="text/plain">
+					<input type="text" id="email" name="email" size="28" placeholder="Sign up for Rider's Zone Email">
+					<input id="submit" type="submit" value="Sign Up">
+				</form></center>
+				<br/>
+			</div>
+		</div>
+		<script src="js/script.js"></script>
+	<center>
+		<div class="footer">
+		<br/><br/>
+			<a href="reservations.html">
+				Rent a Car
+			</a>
+				|
+				<a href="services.html#insurance">
+				Insurance
+			</a>
+				|
+				<a href="services.html#car_assist">
+				Car Assistance
+			</a>
+				|
+				<a href="services.html#car_wash">
+				Car Wash
+			</a>
+				|
+			<a href="offers.html">
+				Offers
+			</a>
+				|
+			<a href="contactus.html">
+				Contact Us
+			</a>
+		</div>
+	</center>
+</div>
+</div>
+</body>
+</html>

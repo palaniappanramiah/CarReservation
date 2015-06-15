@@ -1,0 +1,123 @@
+body, div, ul, li{
+	margin: 0; padding: 0;
+}
+
+#wrap{
+	max-width:750px;
+}
+
+#footer{
+	background-color:#FFFFFF;
+	padding-bottom:80px;
+}
+
+#content{
+	width:750px;
+}
+
+.container{
+	width:750px;
+	height:400px;
+	border:1px solid gray;
+	box-sizing:border-box;
+	background: white;
+}
+.slider_wrapper{
+	overflow: hidden;
+	position:relative;
+	height:400px;
+	top:auto;
+}
+#image_slider{
+	position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	padding:0px;
+	margin:0px;
+}
+#image_slider li{
+	position: relative;
+	float: left;
+}
+
+td{
+width : 30%
+}
+
+.innerContent{
+font-weight: bold;
+color:#000000;
+padding: 7px 0 10px 25px;
+}
+.contentModule .inner{
+	background: url("images/fadingEdge.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+	
+    clear: both;
+    margin: 0;
+    padding: 0 0 0 4px;
+}
+.contentModule h2 {
+    background-color:#2a3f55;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    border-top: 1px solid #dddddd;
+    color: #ffd83a;
+    font-size: 17px;
+    font-weight: normal;
+    margin: 0;
+    padding: 7px 0 6px 18px;
+}
+
+p{
+margin-left:5%;
+text-align:justify;
+padding-right:5%;
+}
+
+h3{
+padding-left:2%;
+}
+
+#submit {
+    background-color: #3e4648;
+    color: #e2e2e2;
+}
+
+.contentModule ul {
+    list-style: outside none none;
+}
+
+.contentModule li {
+    background: url("images/pointer-black-right.png") no-repeat scroll left 10px rgba(0, 0, 0, 0);
+    clear: both;
+    line-height: 160%;
+    margin: 0;
+    padding: 0 10px;
+}
+
+a{
+color:#000000;
+}
+#form input[type="submit"]{
+	margin-left:4%;
+	background: none repeat scroll 0 0 #2a3f55;
+    border: 1px solid #257c9e;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.17) inset;
+    color: #fff;
+    font: 18px "Bitter",serif;
+    padding: 4px 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+}
+#form input[type="submit"]:hover{
+color:#ffd83a;
+cursor: pointer;
+}
+
+#form input[type="text"] {
+	border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.33) inset;
+    box-sizing: border-box;
+    padding: 8px;
+	}
